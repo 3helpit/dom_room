@@ -1,0 +1,115 @@
+.floor {
+    margin: 50px;
+    padding: 0;
+    position: relative;
+}
+
+.room_2_1, .room_2_2, .room_2_3 {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+
+.room_2_1 {
+    background: url("../img/room_2_3.png") no-repeat;
+    width: 74px;
+    height: 129px;
+    bottom: 50px;
+    opacity: 0;
+}
+
+.room_2_2 {
+    background: url("../img/room_2_2.png") no-repeat;
+    width: 87px;
+    height: 101px;
+    bottom: 50px;
+    left: 62px;
+    opacity: 0;
+}
+
+.room_2_3 {
+    background: url("../img/room_2_1.png") no-repeat;
+    width: 69px;
+    height: 63px;
+    bottom: 128px;
+    left: 79px;
+    opacity: 0;
+}
+
+.buy {
+    opacity: 1;
+    -webkit-filter: hue-rotate(215deg);
+}
+
+.reserv {
+    opacity: 1;
+    -webkit-filter: hue-rotate(120deg);
+}
+
+.bron {
+    opacity: 1;
+
+}
+
+.menu_reserv {
+    max-width: 150px;
+    background-color: lavender;
+    margin: 20px;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.select_reserv {
+    padding: 3px;
+    margin: 5px;
+}
+
+.status_res, .btn_buy {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.status_res {
+    margin-top: 20px;
+}
+
+.btn_buy {
+    display: block;
+    width: 75px;
+    margin:20px auto;
+    padding: 10px;
+}
+
+.btn_buy:active, .status_res:active {
+    box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.75);
+}
+
+.room_menu {
+    display: flex;
+    align-items: center;
+}
+
+.bigimg_room {
+    max-width: 500px;
+}
+
+.btn_operation {
+    max-width: 300px;
+}
+
+.floor div:hover:not(.all) {
+    opacity: 0.8;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+.status_room {
+    max-width: 250px;
+    margin: 10px auto;
+    text-align: center;
+}
